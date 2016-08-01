@@ -7,13 +7,13 @@ namespace MigrationWorkflow.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class First : IMigrationMetadata
+    public sealed partial class DFD_First : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(First));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(DFD_First));
         
         string IMigrationMetadata.Id
         {
-            get { return "201608011420220_First"; }
+            get { return "201608011726159_DFD_First"; }
         }
         
         string IMigrationMetadata.Source
